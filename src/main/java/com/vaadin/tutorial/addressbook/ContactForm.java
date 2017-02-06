@@ -30,7 +30,10 @@ public class ContactForm extends FormLayout {
     TextField phone = new TextField("Phone");
     TextField email = new TextField("Email");
     DateField birthDate = new DateField("Birth date");
-
+    DateField startDate = new DateField("Start date");
+    DateField endDate = new DateField("End date");
+    TextField task = new TextField("Taks");
+    
     Contact contact;
 
     // Easily bind forms to beans and manage validation and buffering
@@ -60,7 +63,7 @@ public class ContactForm extends FormLayout {
         HorizontalLayout actions = new HorizontalLayout(save, cancel);
         actions.setSpacing(true);
 
-        addComponents(actions, firstName, lastName, phone, email, birthDate);
+        addComponents(actions, firstName, lastName, phone, email, birthDate,task,startDate,endDate);
     }
 
     /*

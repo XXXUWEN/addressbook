@@ -22,8 +22,35 @@ public class Contact implements Serializable, Cloneable {
     private String phone = "";
     private String email = "";
     private Date birthDate;
+    private Date startDate;
+    private Date endDate;
+    private String task;
 
-    public Long getId() {
+    public Date getStartDate() {
+		return startDate;
+	}
+
+	public void setStartDate(Date startDate) {
+		this.startDate = startDate;
+	}
+
+	public Date getEndDate() {
+		return endDate;
+	}
+
+	public void setEndDate(Date endDate) {
+		this.endDate = endDate;
+	}
+
+	public String getTask() {
+		return task;
+	}
+
+	public void setTask(String task) {
+		this.task = task;
+	}
+
+	public Long getId() {
         return id;
     }
 
