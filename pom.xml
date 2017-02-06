@@ -91,6 +91,7 @@
                     <goals><goal>copy</goal></goals>
                     <configuration>
                         <artifactItems>
+                        
                             <artifactItem>
                                 <groupId>org.eclipse.jetty</groupId>
                                 <artifactId>jetty-runner</artifactId>
