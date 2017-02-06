@@ -1,5 +1,5 @@
 
-screen_shoot_for_travis.pgn
+screen_shoot_for_travis.png
 
 
 
