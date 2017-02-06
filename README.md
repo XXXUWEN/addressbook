@@ -1,7 +1,7 @@
 
-screen_shoot_for_travis.png
 
 
+/Users/niexuwen/Desktop/java3/addressbook/screen_shoot_for_travis.png
 
 
 
