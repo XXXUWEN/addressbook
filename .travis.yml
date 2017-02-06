@@ -3,3 +3,11 @@ install:
 - mvn install
 jdk:
 - oraclejdk8
+deploy:
+  provider: heroku
+  api_key:
+    secure: Yn3OLMbQxcc5sXh5e+8Ck0hqlLYJD02sF6ko9jpdazj8l8yZXBlVdah9uvL82NxQ5HoCHS1obKe3b5qeqxR1QJE19YpphPZn9EAXntqkDsWtl6XOYE59IWhSKKnfjJ64Vc+1SxjmXJ5nKmQZzY7cdZDpvpnMehoZkz3dZJyjyGoqedCg5KCes3xQzJP0bigZOZoqsMxJ3WluI8VSNTDwTG0RBUkER79LKmuvReyWro17//tfNYn6EdGcxjGSfL3SfW9rhNSV7LdidENgp1gT3s65knIc9ADZTMWpvOH8dzyxJEGhvMxFx10Ojr7rS93zg/HysFybHUXJpU9os0FlxAjqLVZnqdklOanPNBsAqyRyF0el+v5vyZ9VXb3H/LN1OBthgnymmiYYcajw4s48fp3pgUM0LVd159jXUip4QN+r+o31GrSJ53aOR5DKfEeaBVUVf+TLP8lz3DvIkNntzk5JuQUXMDN79J/fAa5wwEsGu7LYAVP5aDyxmgt8kE2eQ++xBs6VSz1GA8ZmbO06AXAOrc3J/LLafQ4KoLVqPZJUcvhHngOHg0pt2fzP7WVxjEGovDkRL0WaN10oTlm+xXm4Mcd6+5AP3RZSVbGAdp0quZemr8wcTktDlgEFUQSjzESY17uL/TiPSNp2mFJ64LdWGJuSceHDSzhM5FxU3TM=
+  app: xuwennie-addressbook
+  on:
+    repo: XXXUWEN/addressbook
+    branch: todo_tasks
