@@ -1,5 +1,5 @@
 
-/Users/niexuwen/Desktop/屏幕快照 2017-02-06 下午3.01.04.png
+screen_shoot_for_travis.pgn
 
 
 
